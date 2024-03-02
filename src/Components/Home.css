@@ -1,0 +1,53 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    position: fixed;
+    bottom: 35%;
+    height: 55vmin;
+    filter: drop-shadow(0 0 5px rgba(255, 0, 149, 0.5));
+    transition: height .5s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.App-logo:hover {
+    height: 59vmin;
+    filter: drop-shadow(0 0 10px rgba(255, 0, 149, 0.8));
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('https://res.cloudinary.com/dxyxg3egs/image/upload/v1709412574/diul/diulbg_mdzhle.png') center/cover no-repeat;
+    z-index: -0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
