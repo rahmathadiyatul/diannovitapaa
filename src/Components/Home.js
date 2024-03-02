@@ -7,7 +7,7 @@ import './Home.css'
 const Home = () => {
     const navigate = useNavigate();
     const handleButtonClick = () => {
-        navigate('/login')
+        navigate('/dashboard')
     }
     return (
         <div className="App">
